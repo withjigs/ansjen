@@ -1,0 +1,7 @@
+- name: check connection with all the hosts
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Ping host
+      ping:
