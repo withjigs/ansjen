@@ -8,4 +8,7 @@
     - name: Checing poll scm
       debug:
         msg: "checking poll scm"
+    - name: with worker
+      debug:
+        msg: "with worker"
 
