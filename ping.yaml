@@ -5,3 +5,7 @@
   tasks:
     - name: Ping host
       ping:
+    - name: Checing poll scm
+      debug:
+        msg: "checking poll scm"
+
